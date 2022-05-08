@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(249,63,251);
+  background: radial-gradient(circle, rgba(249,63,251,1) 0%, rgba(252,70,70,1) 100%);
+  padding: 0;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+
+.card-front-wrapper {
+  background-image: url("./heart2.png");
+  background-position: 50%;
+  background-size: 140vw;
+  background-repeat: no-repeat;
+  background-color: rgba(249,63,251,1);
+  padding: 10vh 10vw 15vh 10vw;
+  margin: 0 auto;
+}
+
+.inner-heart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 64px 16px 8px 16px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+}
